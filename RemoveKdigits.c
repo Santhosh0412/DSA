@@ -5,7 +5,7 @@ struct Node {
     char data;
     struct Node* next;
 };
-system("cls");
+
 struct Node* newNode(char data) {
     struct Node* node = (struct Node*)malloc(sizeof(struct Node));
     node->data = data;
